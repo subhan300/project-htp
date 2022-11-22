@@ -1,0 +1,17 @@
+@import "../../../../../theme/colors";
+@import "../../../../../theme/fonts";
+
+.title {
+  color: $headinColor;
+  font-weight: $fontWeightForSubHeading;
+  font-family: $fontFamily;
+  font-size: $fontSizeForSubHeading;
+}
+.box {
+  border: 0.1px solid $borderColorLight;
+  border-radius: $borderRadius;
+  &:hover {
+    box-shadow: $boxShadow;
+    border: none;
+  }
+}

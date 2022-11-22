@@ -1,0 +1,116 @@
+@import "../../../theme/colors/";
+@import "../../../theme/fonts/index.scss";
+@import "../../../app.scss";
+
+.confirm-text {
+  font-size: $fontSizeForText !important;
+}
+
+.ant-modal {
+  top: 0px !important;
+  // width:  !important;
+}
+
+.ant-modal-confirm-body {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+}
+
+.ant-modal-confirm-btns {
+  display: flex;
+  width: 100% !important;
+  justify-content: space-between;
+}
+
+.ant-modal-confirm-content {
+  margin-left: 0px !important;
+  width: 100%;
+}
+.ant-modal-confirm-body {
+  .anticon {
+    margin-right: 0px !important;
+    font-size: 72px !important;
+  }
+}
+.ant-modal-confirm-title {
+  font-size: 30px !important;
+  font-family: $fontFamily !important ;
+  font-weight: $fontWeightForHeading !important;
+  text-align: center !important;
+}
+
+.ant-modal-content {
+  border-radius: $borderRadius !important ;
+  margin-top: 30px !important;
+}
+.ant-modal-confirm .ant-modal-body {
+  padding: 24px 24px !important;
+}
+
+.ant-modal-confirm-body-wrapper {
+  .ant-btn {
+    background: $themeColor !important;
+    border-radius: $borderRadius !important;
+    span {
+      color: $white;
+    }
+  }
+}
+.ant-upload.ant-upload-drag p.ant-upload-drag-icon .anticon {
+  color: $themeColor !important;
+}
+.ant-upload.ant-upload-drag:not(.ant-upload-disabled):hover {
+  border-color: $themeColor !important;
+}
+.ant-upload-list-text .ant-upload-text-icon .anticon {
+  font-size: $fontSizeForText !important;
+}
+.modal {
+  border-radius: $borderRadius !important;
+}
+.ant-modal-centered {
+  display: flex;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
+  background: $themeColor;
+  border-color: $themeColor;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ant-steps-item {
+  flex: auto;
+  align-items: center;
+  justify-content: center;
+}
+.ant-btn {
+  background: $themeColor !important;
+  border-radius: $borderRadius !important;
+  span {
+    color: $white;
+  }
+}
+.ant-steps-item-finish .ant-steps-item-icon > .ant-steps-icon {
+  color: $themeColor;
+}
+.ant-steps-item-finish .ant-steps-item-icon {
+  border-color: $themeColor !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ant-steps-item-container {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center;
+  width: 100%;
+}
+.ant-modal-header {
+  border-radius: 8px 8px 0px 0px;
+}
+.ant-btn-dangerous.ant-btn-primary {
+  background: #ff4d4f !important;
+}

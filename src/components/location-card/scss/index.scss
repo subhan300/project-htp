@@ -1,0 +1,29 @@
+@import "../../../theme/colors/index.scss";
+@import "../../../theme/fonts/index.scss";
+
+.location-card-icon {
+  margin-left: 8px !important;
+  font-size: 24px !important;
+  color: $textColor;
+}
+.location-card-icon-div {
+  margin-top: -4px;
+}
+
+.location-card-title {
+  font-size: $fontSizeForText;
+  font-weight: $fontWeightForText;
+  font-style: $fontFamily;
+}
+
+.patient-number {
+  font-size: $fontSizeForHeading;
+  color: $textColor;
+  font-weight: $fontSizeForSubHeading;
+  color: $themeColor;
+  margin-left: -2px;
+}
+
+.location-card-hand {
+  cursor: pointer;
+}

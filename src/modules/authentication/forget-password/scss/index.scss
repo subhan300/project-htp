@@ -1,0 +1,116 @@
+@import "../../../../theme/colors/";
+@import "../../../../theme/fonts";
+@import "../../../../app.scss";
+
+.forget-modal-heading {
+  font-size: $fontSizeForSubHeading;
+  font-family: $fontFamily;
+  color: $headinColor;
+  font-weight: $fontWeightForHeading;
+}
+.forget-modal-text {
+  color: $textColor;
+  font-size: $fontSizeForText;
+  font-family: $fontFamily;
+  font-weight: $fontWeightForSubHeading;
+}
+.forget-modal-link {
+  color: $linkColor;
+  font-family: $fontFamily;
+  font-size: $fontSizeForText;
+  font-weight: $fontWeightForText;
+}
+#parent_container_forget_password {
+  height: 100vh;
+  .alert-banner {
+    font-size: $fontSizeForText;
+    font-weight: $fontWeightForText;
+  }
+  form {
+    border-radius: $borderRadius;
+    background-color: $white;
+    padding: 2px 35px 23px 35px;
+  }
+  h1 {
+    font-size: $fontSizeForHeading;
+    font-family: $fontFamily !important;
+    color: $headinColor !important ;
+    font-weight: $fontWeightForHeading;
+    line-height: 20px;
+  }
+  h3 {
+    color: $textColor;
+    font-size: $fontSizeForSubHeading;
+    font-weight: $fontWeightForSubHeading;
+    font-family: $fontFamily !important;
+  }
+
+  .text_styling {
+    font-size: $fontSizeForText;
+    font-weight: $fontWeightForText;
+    font-family: $fontFamily;
+    color: $textColor !important;
+  }
+  .centralize_card {
+    border-radius: $borderRadius;
+    background-color: $white;
+    box-shadow: $boxShadow;
+  }
+
+  .card {
+    border: 0.1px solid $borderColorLight;
+    border-radius: $borderRadius;
+    padding: 1rem;
+    &:hover {
+      box-shadow: $boxShadow;
+      border: none;
+    }
+  }
+
+  .selected_class {
+    box-shadow: $boxShadow;
+    border: none;
+  }
+
+  .card_heading {
+    font-size: $fontSizeForSubHeading;
+    font-weight: $fontWeightForHeading;
+    font-family: $fontFamily;
+  }
+  .card_text {
+    font-size: $fontSizeForText;
+    font-weight: $fontWeightForText;
+    font-family: $fontFamily;
+  }
+
+  .link_color {
+    color: $linkColor !important;
+  }
+  input[type="radio"]:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: "";
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+  }
+
+  input[type="radio"]:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: $themeColor !important;
+    content: "";
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+  }
+}

@@ -1,0 +1,29 @@
+@import "../../../../theme/colors";
+@import "../../../../theme/fonts";
+
+.input.ant-input-affix-wrapper.ant-input-password {
+  background-color: $white;
+  color: $textColor;
+  border: 2px solid $borderColorLight;
+  border-radius: $borderRadius;
+  padding: 8px !important;
+  outline: none;
+  box-shadow: none;
+  font-size: $fontSizeForText;
+  font-family: $fontFamily;
+  font-weight: $fontWeightForText;
+  width: 100%;
+  &:focus {
+    border-color: $themeColor;
+    outline: none;
+  }
+  &:hover {
+    outline: none;
+    border-color: $themeColor;
+  }
+  &::placeholder {
+    color: $textColor;
+    font-size: $fontSizeForText;
+    font-family: $fontFamily;
+  }
+}

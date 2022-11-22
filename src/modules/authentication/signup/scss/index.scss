@@ -1,0 +1,64 @@
+@import "../../../../theme/colors/";
+@import "../../../../theme/fonts";
+@import "../../../../app.scss";
+
+#parent_container_signup {
+  height: 100vh;
+  form {
+    border-radius: $borderRadius;
+    background-color: $white;
+    box-shadow: $boxShadow;
+  }
+  h1 {
+    font-size: $fontSizeForHeading;
+    font-family: $fontFamily !important;
+    color: $headinColor !important ;
+    font-weight: $fontWeightForHeading;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  h3 {
+    color: $headinColor;
+    font-size: $fontSizeForSubHeading;
+    font-weight: $fontWeightForSubHeading;
+    font-family: $fontFamily !important;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  p {
+    color: $textColor;
+    font-size: $fontSizeForText;
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .dob_row {
+    h3 {
+      color: $textColor;
+      font-size: $fontSizeForText;
+      font-weight: $fontWeightForText;
+      font-family: $fontFamily !important;
+    }
+  }
+  .signup-label {
+    color: $textColor !important;
+    font-size: $fontSizeForText !important;
+    font-weight: $fontWeightForSubHeading !important;
+    vertical-align: middle;
+  }
+  .clear-btn {
+    color: $white !important;
+    background-color: $themeColor !important;
+    box-shadow: $boxShadow !important;
+    border-radius: $borderRadius !important;
+  }
+}
+.error {
+  color: $red !important;
+  font-weight: $fontWeightForText !important;
+}
+.upload-text {
+  color: $textColor !important;
+  font-family: $fontFamily !important;
+  font-size: $fontSizeForText !important;
+  font-weight: $fontWeightForText !important;
+}

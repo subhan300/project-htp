@@ -1,0 +1,51 @@
+@import "../../../theme/colors/index.scss";
+@import "../../../theme/fonts/index.scss";
+
+.user-information-modal-title {
+  font-size: $fontSizeForText;
+  color: $textColor;
+}
+
+.user-information-modal-title--col2 {
+  text-align: left;
+}
+
+.user-information-modal-title-span {
+  padding-left: 10px;
+}
+.user-information-icons {
+  margin-top: -7px;
+
+  // border:2px solid blue;
+}
+.ant-modal-title {
+  text-align: center;
+  font-size: $fontSizeForSubHeading;
+  color: $headinColor;
+  font-family: $fontFamily;
+  font-weight: $fontWeightForSubHeading;
+}
+
+@media only screen and (max-width: 767px) {
+  .user-information-modal-title {
+    text-align: left !important;
+  }
+  .drawer {
+    min-width: 300px !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 994px) {
+  .col-responsive {
+    text-align: left !important;
+  }
+}
+.site-description-item-profile-p {
+  font-size: $fontSizeForSubHeading;
+}
+@media only screen and (max-width: 425px) {
+  .ant-drawer-content-wrapper {
+    width: 90% !important;
+  }
+}

@@ -1,0 +1,23 @@
+@import "../../../../theme/colors/";
+@import "../../../../theme/fonts";
+@import "../../../../app.scss";
+#parent_container_reset_password {
+  height: 100vh;
+  .centralize_card {
+    border-radius: $borderRadius;
+    background-color: $white;
+    box-shadow: $boxShadow;
+  }
+}
+.otp-heading {
+  font-size: $fontSizeForHeading;
+  font-family: $fontFamily;
+  color: $headinColor;
+  font-weight: $fontWeightForHeading;
+}
+.otp-text {
+  color: $textColor;
+  font-size: $fontSizeForText;
+  font-family: $fontFamily;
+  font-weight: $fontWeightForSubHeading;
+}

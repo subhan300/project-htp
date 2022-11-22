@@ -1,0 +1,94 @@
+@import "./theme/fonts/index.scss";
+@import "./theme/colors/index.scss";
+$borderRadius: 8px;
+$borderColorDark: #707070;
+$borderColorLight: #c3c3c7;
+
+.panel-title {
+  font-size: $fontSizeForHeading;
+  font-family: $fontFamily;
+  font-weight: $fontWeightForHeading;
+  color: $textColor;
+}
+
+.cards {
+  width: 100%;
+  border-radius: $borderRadius !important;
+}
+
+.switch {
+  background-color: $themeColor;
+}
+
+.ant-table-small .ant-table-thead > tr > th {
+  text-align: center;
+}
+
+.ant-table-tbody > tr > td {
+  text-align: center;
+}
+.text-font-size {
+  font-size: $fontSizeForText;
+}
+
+.ant-steps-item-container {
+  justify-content: flex-start !important;
+}
+
+.ant-form-item-label > label {
+  display: flex;
+  justify-content: center;
+}
+
+.ant-steps-item-wait .ant-steps-item-icon {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ant-steps-item-process
+  > .ant-steps-item-container
+  > .ant-steps-item-icon
+  .ant-steps-icon {
+  padding: 20px;
+}
+
+.ant-btn:hover,
+.ant-btn:focus {
+  color: white !important;
+}
+
+.ant-dropdown .ant-btn-primary {
+  justify-content: space-evenly;
+}
+.active-location {
+  border: 1px solid blue;
+}
+
+@media only screen and (max-width: 890) {
+  .ant-steps-vertical-steps {
+    display: flex !important;
+    border: 2px solid red;
+    flex-direction: column !important;
+  }
+}
+
+.ant-steps-horizontal:not(.ant-steps-label-vertical)
+  .ant-steps-item:first-child {
+  margin-left: 16px;
+}
+
+.ant-table-column-title {
+  width: 150px;
+}
+
+.dynamic-btn {
+  width: 100%;
+  padding: 1.3rem;
+}
+.dynamic-text {
+  color: white;
+  margin-top: -0.5rem;
+}
+.disabled-row {
+  pointer-events: none;
+}

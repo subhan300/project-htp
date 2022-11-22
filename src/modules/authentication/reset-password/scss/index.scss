@@ -1,0 +1,35 @@
+@import "../../../../theme/colors/";
+@import "../../../../theme/fonts";
+@import "../../../../app.scss";
+
+#parent_container_reset_password {
+  height: 100vh;
+  .centralize_card {
+    border-radius: $borderRadius;
+    background-color: $white;
+    box-shadow: $boxShadow;
+    .reset-heading {
+      font-size: $fontSizeForHeading;
+      font-family: $fontFamily;
+      color: $headinColor;
+      font-weight: $fontWeightForHeading;
+    }
+  }
+
+  .card {
+    border: 0.1px solid $borderColorLight;
+    border-radius: $borderRadius;
+    padding: 1rem;
+    &:hover {
+      box-shadow: $boxShadow;
+      border: none;
+    }
+  }
+}
+
+.reset-label {
+  color: $textColor !important;
+  font-size: $fontSizeForText !important;
+  font-weight: $fontWeightForSubHeading !important;
+  vertical-align: middle;
+}

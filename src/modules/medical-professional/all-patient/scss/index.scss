@@ -1,0 +1,8 @@
+@import "../../../../theme/colors/";
+@import "../../../../theme/fonts";
+@import "../../../../app.scss";
+
+.action-eye-span {
+  background-color: $themeColor !important;
+  border-radius: $borderRadius !important;
+}

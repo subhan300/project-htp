@@ -1,0 +1,33 @@
+@import "../../../../theme/colors/index.scss";
+@import "../../../../theme/fonts/index.scss";
+
+.test-field-title {
+  font-size: $fontSizeForText;
+  color: $textColor;
+  font-family: $fontFamily;
+
+  cursor: pointer;
+}
+
+.location-sidebar {
+  background-color: $white;
+}
+.test-title-modal {
+  // border: 1px solid $themeColor !important;
+  &:hover {
+    background-color: $bgMenuhover;
+    color: $themeColor;
+  }
+}
+
+@media (min-width: 670px) {
+  .location-sidebar {
+    width: 12% !important;
+  }
+}
+@media (max-width: 670px) {
+  .location-sidebar {
+    width: 80% !important;
+    margin-left: 30px !important;
+  }
+}

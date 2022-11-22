@@ -1,0 +1,29 @@
+@import "../../../../theme/colors";
+@import "../../../../theme/fonts";
+@import "../../../../app.scss";
+
+.input.ant-input {
+  background-color: $white;
+  color: $textColor;
+  border: 2px solid $borderColorLight;
+  border-radius: $borderRadius;
+  padding: 8px !important;
+  outline: none;
+  font-size: $fontSizeForText;
+  font-family: $fontFamily;
+  font-weight: $fontWeightForText;
+  width: 100%;
+  &:focus {
+    outline: none;
+    border-color: $themeColor;
+  }
+  &:hover {
+    outline: none;
+    border-color: $themeColor;
+  }
+  &::placeholder {
+    color: $textColor;
+    font-size: $fontSizeForText;
+    font-family: $fontFamily;
+  }
+}

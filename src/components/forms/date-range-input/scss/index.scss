@@ -1,0 +1,36 @@
+@import "../../../../theme/colors";
+@import "../../../../theme/fonts";
+
+.dateRangeInner {
+  border-radius: $borderRadius !important;
+  background-color: $white !important;
+  padding: 8px !important;
+  box-shadow: $boxShadow !important;
+  width: 100%;
+  &:hover {
+    border-color: $themeColor;
+  }
+  &:focus {
+    border-color: $themeColor;
+  }
+}
+.ant-picker-focused {
+  border-color: $themeColor;
+}
+.ant-picker-range .ant-picker-active-bar {
+  background: $themeColor;
+}
+.ant-picker-panel-container .ant-picker-panels {
+  color: $textColor;
+}
+.ant-picker-cell-in-view.ant-picker-cell-selected .ant-picker-cell-inner,
+.ant-picker-cell-in-view.ant-picker-cell-range-start .ant-picker-cell-inner,
+.ant-picker-cell-in-view.ant-picker-cell-range-end .ant-picker-cell-inner {
+  background: $themeColor !important;
+}
+.ant-picker-cell-in-view.ant-picker-cell-today .ant-picker-cell-inner::before {
+  border-color: $themeColor !important;
+}
+.ant-picker-cell-in-view.ant-picker-cell-in-range::before {
+  background: #e3fdfc;
+}

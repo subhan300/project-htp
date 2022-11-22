@@ -1,0 +1,45 @@
+@import "../../../../theme/colors";
+@import "../../../../theme/fonts";
+@import "../../../../app.scss";
+
+#antd_select_input {
+  .ant-select {
+    background-color: $white;
+    color: $textColor;
+    border: 2px solid $borderColorLight;
+    border-radius: $borderRadius;
+    padding: 5px !important;
+    outline: none;
+    font-size: $fontSizeForText;
+    font-family: $fontFamily;
+    font-weight: $fontWeightForText;
+    width: 100%;
+    outline: none;
+    &::selection {
+      border-color: $themeColor;
+      outline: none;
+    }
+    &:focus {
+      border-color: $themeColor !important;
+      outline: none !important;
+    }
+  }
+
+  .ant-select-selection-item {
+    color: $textColor;
+    font-size: $fontSizeForText;
+    font-family: $fontFamily;
+    display: flex;
+    align-items: center;
+  }
+ 
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border: none !important;
+    outline: none !important;
+  }
+  .ant-select-arrow {
+    color: $borderColorLight !important;
+  }
+}
+
+.bgColor{}

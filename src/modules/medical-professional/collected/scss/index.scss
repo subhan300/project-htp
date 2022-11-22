@@ -1,0 +1,24 @@
+@import "../../../../theme/colors/index.scss";
+@import "../../../../theme/fonts/index.scss";
+@import "../../../../theme/media-query/index.scss";
+@import "../../../../app.scss";
+
+
+
+
+
+.medical-panel-title{
+    // color: red;
+    font-size:$fontSizeForHeading;
+    margin-bottom: 18px;
+    font-family: $fontFamily;
+    font-weight: $fontWeightForHeading;
+    color: $headinColor;
+}
+
+.medical-panel-uncollected-header{
+    display: flex !important;
+    justify-content: space-between;
+}
+
+

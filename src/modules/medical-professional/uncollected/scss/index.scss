@@ -1,0 +1,39 @@
+@import "../../../../theme/colors/";
+@import "../../../../theme/fonts";
+@import "../../../../app.scss";
+
+.title {
+  font-size: $fontSizeForHeading;
+}
+
+.patient-modal-heading {
+  font-size: $fontSizeForSubHeading;
+  font-family: $fontFamily;
+  color: $headinColor;
+  font-weight: $fontWeightForHeading;
+}
+.card {
+  border: 0.1px solid $borderColorLight;
+  border-radius: $borderRadius;
+  padding: 1rem;
+  &:hover {
+    box-shadow: $boxShadow;
+    border: none;
+  }
+}
+
+.selected_class {
+  box-shadow: $boxShadow;
+  border: none;
+}
+
+.card_heading {
+  font-size: $fontSizeForSubHeading;
+  font-weight: $fontWeightForHeading;
+  font-family: $fontFamily;
+}
+.card_text {
+  font-size: $fontSizeForText;
+  font-weight: $fontWeightForText;
+  font-family: $fontFamily;
+}

@@ -1,0 +1,34 @@
+@import "../../../../theme/colors/index.scss";
+@import "../../../../theme/fonts/index.scss";
+@import "../../../../theme/media-query/index.scss";
+@import "../../../../app.scss";
+
+
+.cards-title {
+  font-size: $fontSizeForSubHeading;
+  color: $textColor;
+}
+.card-icon {
+  background-color: $lightGray;
+  color: $themeColor;
+  font-size: $fontSizeForSubHeading;
+  border: 1px solid $lightGray;
+  border-radius: 50%;
+}
+.cards-subtitle {
+  font-size: $fontSizeForText;
+  color: $textColor;
+}
+.cards-title-number {
+  color: $themeColor;
+  font-size: $fontSizeForSubHeading;
+}
+
+@media (min-width: 640px) {
+  .chart-div {
+    width: 95%;
+  }
+  .chart-large-div {
+    width: 95%;
+  }
+}

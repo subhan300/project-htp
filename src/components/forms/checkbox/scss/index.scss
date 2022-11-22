@@ -1,0 +1,11 @@
+@import "../../../../theme/colors";
+@import "../../../../theme/fonts";
+
+.ant-checkbox-wrapper {
+  display: flex !important;
+  align-items: center !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: $themeColor !important;
+  border-color: $themeColor !important;
+}

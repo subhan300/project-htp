@@ -1,0 +1,14 @@
+@import '../../../../app.scss';
+@import '../../../../theme/colors/index.scss';
+@import '../../../../theme/fonts/index.scss';
+.ant-upload.ant-upload-drag {
+  padding: 0px 50px !important;
+  border-radius: $borderRadius !important;
+}
+.ant-upload.ant-upload-select{
+  border-radius: $borderRadius !important;
+  border: 2px solid $borderColorLight;
+  &:hover{
+    border-color: $themeColor !important;
+  }
+}

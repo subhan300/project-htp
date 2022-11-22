@@ -1,0 +1,102 @@
+@import "../../../theme/colors/index.scss";
+@import "../../../theme/fonts/index.scss";
+@import "../../../app.scss";
+
+.table table {
+  font-family: $fontFamily;
+  font-size: $fontSizeForText;
+}
+
+.ant-table-wrapper {
+  .ant-pagination-item-active {
+    background-color: $themeColor !important;
+    box-shadow: $boxShadow !important;
+    border-radius: $borderRadius !important;
+    color: $white !important;
+    border: none !important;
+  }
+
+  .ant-pagination-item-active a {
+    color: $white !important;
+  }
+
+  .ant-table-filter-trigger {
+    background-color: $themeColor !important;
+    margin: 0px !important;
+    font-size: $fontSizeForText !important ;
+
+    .anticon svg {
+      color: $white !important;
+    }
+  }
+
+  .ant-pagination-item {
+    a {
+      &:hover {
+        color: $themeColor !important;
+      }
+    }
+  }
+  .ant-pagination-item-active {
+    a {
+      &:hover {
+        color: $white !important;
+      }
+    }
+  }
+}
+.ant-dropdown {
+  .ant-btn-primary {
+    background-color: $themeColor !important;
+    box-shadow: $boxShadow !important;
+    color: $white !important;
+    border: none !important;
+    display: flex;
+    align-items: center;
+  }
+  .ant-checkbox-checked .ant-checkbox-inner {
+    background-color: $themeColor !important;
+    color: $white !important;
+  }
+  .ant-btn-link {
+    color: $linkColor;
+  }
+
+  .table_btn_width {
+    width: 90px !important;
+  }
+  .search_input {
+    display: block;
+    margin-bottom: 8px;
+  }
+  .ant-space {
+    :nth-child(2) {
+      .ant-btn {
+        span {
+          &:hover {
+            color: $themeColor !important;
+          }
+        }
+      }
+    }
+  }
+}
+
+.deleteViewBtn {
+  .ant-btn-square {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    border-radius: $borderRadius;
+  }
+}
+
+
+.ant-pagination-item-active{
+  border:1px solid $themeColor !important
+}
+
+.ant-pagination-item-active a{
+  
+  color:$themeColor !important
+}

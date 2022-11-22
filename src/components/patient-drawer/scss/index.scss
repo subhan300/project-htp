@@ -1,0 +1,42 @@
+@import "../../../theme/colors";
+@import "../../../theme/fonts";
+
+.patient-step-form {
+  width: 100% !important;
+  .btn-div {
+    width: calc(100% - 48px);
+  }
+  .qr-div {
+    height: 50vh;
+  }
+  // .ant-steps-item-container {
+  //   align-items: baseline !important;
+  // }
+  .ant-steps-item-container {
+    justify-content: flex-start !important;
+    align-items: center !important;
+  }
+  @media screen and (max-width: 600px) {
+    .ant-steps-item-container {
+      justify-content: flex-start !important;
+      align-items: flex-start !important;
+    }
+  }
+  .ant-steps-item-icon {
+    width: 40px !important;
+    height: 40px !important;
+    padding: 5px !important;
+    margin-right: 8px !important;
+  }
+  .ant-steps-item-finish .ant-steps-item-icon {
+    display: block !important;
+  }
+  .ant-steps-item-process > .ant-steps-item-container > .ant-steps-item-icon {
+    background: none !important;
+  }
+  .ant-steps-item-finish
+    > .ant-steps-item-container
+    > .ant-steps-item-tail::after {
+    background-color: $themeColor !important;
+  }
+}

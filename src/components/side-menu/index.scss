@@ -1,0 +1,90 @@
+@import "../../theme/colors/index.scss";
+
+@media (max-width: 550px) {
+  .side-menu {
+    width: 300px !important;
+    margin-left: -1rem !important;
+  }
+}
+
+@media (max-width: 380px) {
+  .side-menu {
+    width: 300px !important;
+    margin-left: -1.8rem !important;
+  }
+}
+
+@media (max-width: 340px) {
+  .side-menu {
+    width: 260px !important;
+    /* margin-left: !important; */
+  }
+}
+
+.side_menu-ul {
+  display: flex;
+  justify-content: space-evenly !important;
+  height: 3rem;
+  align-items: center;
+  background-color: white;
+}
+.side_menu-item {
+  border: 1px solid cyan;
+  color: black;
+  display: flex;
+  width: 45px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+// .active {
+//   background-color: $themeColor !important;
+// }
+
+.side_menu-item:hover {
+  background-color: $bgMenuhover;
+  border: 1px solid $bgMenuhover;
+
+  // display: block !important;
+  visibility: visible !important;
+  color: $themeColor;
+}
+
+// .test-1-show {
+//   border: 1px solid red;
+//   margin-top: -5rem !important;
+//   font-weight: bold;
+//   display: visible;
+//   position: absolute;
+//   top: 3.5rem;
+
+// display: block;
+// visibility: visible !important;
+// background-color: aqua;
+/* transition-delay: 1s !important; */
+/* transition-duration: 1s; */
+// }
+
+// .test-2-show-hide,
+// .test-3-show-hide,
+// .test-4-show-hide,
+// .test-1-show-hide {
+//   display: none;
+/* display: n;
+  
+   */
+/* visibility: hidden; */
+/* display: none; */
+/* opacity: 0; */
+/* color: white; */
+// }
+
+@media only screen and (min-width: 700px) {
+  .side_menu-ul {
+    margin-top: 3rem;
+    height: 10rem !important;
+  }
+}

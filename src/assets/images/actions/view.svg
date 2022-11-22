@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 35 35">
+  <g id="view" transform="translate(0 -0.296)">
+    <g id="check">
+      <rect id="Rectangle_20864" data-name="Rectangle 20864" width="35" height="35" rx="7" transform="translate(0 0.296)" fill="#006571" opacity="0.99"/>
+      <g id="eye_1_" data-name="eye (1)" transform="translate(8 -51.707)">
+        <g id="Group_81458" data-name="Group 81458" transform="translate(8.276 67.887)">
+          <g id="Group_81457" data-name="Group 81457" transform="translate(0 0)">
+            <circle id="Ellipse_3123" data-name="Ellipse 3123" cx="1.48" cy="1.48" r="1.48" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_81460" data-name="Group 81460" transform="translate(5.429 65.04)">
+          <g id="Group_81459" data-name="Group 81459" transform="translate(0 0)">
+            <path id="Path_85679" data-name="Path 85679" d="M147.341,142a4.327,4.327,0,1,0,4.327,4.327A4.332,4.332,0,0,0,147.341,142Zm0,7.136a2.809,2.809,0,1,1,2.809-2.809A2.812,2.812,0,0,1,147.341,149.138Z" transform="translate(-143.014 -142.002)" fill="#fff"/>
+          </g>
+        </g>
+        <g id="Group_81462" data-name="Group 81462" transform="translate(0 62.003)">
+          <g id="Group_81461" data-name="Group 81461" transform="translate(0 0)">
+            <path id="Path_85680" data-name="Path 85680" d="M18.944,67.71a14.675,14.675,0,0,0-3.392-3.592A9.659,9.659,0,0,0,9.735,62a9.709,9.709,0,0,0-5.822,2.109A14.78,14.78,0,0,0,.5,67.7a3.032,3.032,0,0,0,0,3.335,14.779,14.779,0,0,0,3.413,3.587,9.709,9.709,0,0,0,5.822,2.109,10.407,10.407,0,0,0,6.773-2.9c.022-.018.137-.124.248-.228a11.49,11.49,0,0,0,2.188-2.581c.221-.33-.574.162-1.285-.833a12.917,12.917,0,0,1-2.118,2.468,8.879,8.879,0,0,1-5.807,2.553c-3.686,0-6.742-3.151-7.967-5.013a1.515,1.515,0,0,1,0-1.667c1.225-1.862,4.28-5.012,7.967-5.012s6.723,3.154,7.937,5.017a1.511,1.511,0,0,1-.012,1.652c-.229.351,1.056,1.185,1.285.833A3.039,3.039,0,0,0,18.944,67.71Z" transform="translate(0 -62.003)" fill="#fff" stroke="#fff" stroke-width="0.2"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

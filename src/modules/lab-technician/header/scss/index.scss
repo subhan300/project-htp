@@ -1,0 +1,15 @@
+@import "../../../../theme/colors/";
+@import "../../../../theme/fonts";
+@import "../../../../app.scss";
+
+.parent_container_all_patients {
+  h1 {
+    font-size: $fontSizeForHeading;
+    font-family: $fontFamily !important;
+    color: $headinColor !important ;
+    font-weight: $fontWeightForHeading;
+  }
+  .upload-status {
+    font-size: $fontSizeForText;
+  }
+}

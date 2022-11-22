@@ -1,0 +1,34 @@
+@import "../../../../theme/colors";
+@import "../../../../theme/fonts";
+@import "../../../../app.scss";
+
+.ant-radio-inner {
+  border-color: $borderColorLight !important;
+  &:hover {
+    border-color: $themeColor !important;
+  }
+}
+.ant-radio-wrapper {
+  color: $textColor !important;
+  font-size: $fontSizeForText;
+  font-family: $fontFamily;
+  display: flex !important;
+  
+  align-items: center !important;
+  &:hover {
+    border-color: $themeColor !important;
+  }
+}
+.ant-radio-checked .ant-radio-inner {
+  border-color: $borderColorLight !important ;
+  &:hover {
+    border-color: $themeColor !important;
+  }
+}
+.ant-radio-checked .ant-radio-inner:after {
+  background-color: $themeColor !important;
+  border-color: $themeColor !important;
+}
+.ant-radio:hover .ant-radio-inner {
+  border-color: $themeColor !important;
+}

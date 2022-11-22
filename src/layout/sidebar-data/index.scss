@@ -1,0 +1,31 @@
+
+@import "../../app.scss";
+@import "../../theme/fonts/index.scss";
+@import "../../theme/colors/index.scss";
+
+.menu-item{
+    background-color: $white !important;
+    font-family:$fontFamily;
+    font-size:14px;
+    color:$headinColor ;
+  
+    .menu-li:hover{
+        color:$menuHoverTextColor;
+       background-color:$bgMenuhover;
+        }
+
+    .menu-li:active{
+        background-color:$bgMenuhover;
+    }
+    .menu-icon{
+        margin-top: -5px;
+        font-size:$fontSizeForText;
+    }
+}
+
+
+.active-menu{
+    
+    color:$menuHoverTextColor;
+    background-color:$bgMenuhover;
+}

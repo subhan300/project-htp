@@ -1,0 +1,64 @@
+@import "../../../../theme/colors/";
+@import "../../../../theme/fonts";
+@import "../../../../app.scss";
+
+#parent_container_add_new_patient {
+  min-height: 100vh;
+  .page-spinner {
+    color: $themeColor;
+    font-size: 40px !important;
+  }
+  .btn-spinner {
+    color: $themeColor !important;
+    font-size: 20px !important;
+  }
+  // form {
+  .form-card {
+    border-radius: $borderRadius;
+    background-color: $white;
+    box-shadow: $boxShadow;
+  }
+  h1 {
+    font-size: $fontSizeForHeading;
+    font-family: $fontFamily !important;
+    color: $headinColor !important ;
+    font-weight: $fontWeightForHeading;
+  }
+  h3 {
+    color: $textColor;
+    font-size: $fontSizeForSubHeading;
+    font-weight: $fontWeightForSubHeading;
+    font-family: $fontFamily !important;
+  }
+  .input_row {
+    margin: 20px 0px;
+    // .ant-col {
+    //   padding: 0px 10px 20px 10px;
+    // }
+  }
+  .input_row_signature {
+    .ant-col {
+      padding: 0px 10px 20px 10px;
+    }
+  }
+  .heading_row {
+    .ant-col {
+      padding: 10px 10px 0px 0px;
+    }
+  }
+
+  .dob_row {
+    h3 {
+      color: $textColor;
+      font-size: $fontSizeForText;
+      font-weight: $fontWeightForText;
+      font-family: $fontFamily !important;
+    }
+  }
+  .form-label {
+    color: $textColor !important;
+    font-size: $fontSizeForText !important;
+    font-weight: $fontWeightForSubHeading !important;
+    vertical-align: middle;
+  }
+}

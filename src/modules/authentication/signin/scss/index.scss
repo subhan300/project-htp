@@ -1,0 +1,40 @@
+@import "../../../../theme/colors/";
+@import "../../../../theme/fonts";
+@import "../../../../app.scss";
+
+.parent_container_signin {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  .signin-card {
+    border-radius: $borderRadius;
+    background-color: $white;
+    padding: 23px 0px 23px 35px;
+    box-shadow: $boxShadow;
+  }
+  h1 {
+    font-size: $fontSizeForHeading;
+    font-family: $fontFamily !important;
+    color: $headinColor !important ;
+    font-weight: $fontWeightForHeading;
+  }
+
+  .remember_me {
+    display: flex;
+    align-items: center;
+
+    h2 {
+      margin-bottom: 0px !important;
+      font-size: $fontSizeForText;
+      font-weight: $fontWeightForText;
+      font-family: $fontFamily;
+      color: $textColor !important;
+    }
+  }
+  .checkbox {
+    width: inherit !important;
+  }
+  .link_color {
+    color: $linkColor !important;
+  }
+}

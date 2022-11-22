@@ -1,0 +1,11 @@
+@import "../../../../theme/colors/index.scss";
+
+.bottom-bar-item {
+  border: 1px solid #c3c3c7;
+}
+.bottom-bar-item:hover {
+  background-color: $themeColor !important;
+  border: 1px solid #dadbdb !important;
+  color: white;
+  padding: 0.7rem 0.8rem;
+}

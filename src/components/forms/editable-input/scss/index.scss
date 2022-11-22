@@ -1,0 +1,36 @@
+@import "../../../../theme/colors/index.scss";
+@import "../../../../theme/fonts/index.scss";
+@import "../../../../app.scss";
+
+.user-information-modal-title {
+  font-size: $fontSizeForText;
+
+  .save-btn-div {
+    &:focus {
+      display: none;
+    }
+  }
+}
+.save-btn {
+  font-size: $fontSizeForText !important;
+  border-radius: $borderRadius;
+  background-color: $themeColor;
+  font-weight: $fontWeightForText;
+  color: $white;
+  &:hover {
+    cursor: pointer;
+  }
+  &:focus {
+    display: none;
+  }
+}
+
+.input-editor {
+  width: 100%;
+  border: 2px solid $themeColor;
+  border-radius: $borderRadius;
+  &:focus {
+    border: 2px solid $themeColor;
+    outline: none;
+  }
+}

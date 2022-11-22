@@ -1,0 +1,40 @@
+@import "../../../theme/fonts/index.scss";
+@import "../../../theme/colors/index.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+.drop-down-content-title {
+  font-family: $fontFamily !important;
+  color: $textColor !important;
+  font-size: $fontSizeForText;
+}
+
+.avatar-email-div-email {
+  font-size: 11px;
+}
+.avatar-email-div-title {
+  line-height: 18px;
+}
+
+.drop-down-hr {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #f0f2f5;
+}
+
+.user-information-items:hover {
+  color: $menuHoverTextColor;
+  background-color: $bgMenuhover;
+  cursor: pointer;
+}
+.navbar-avatar {
+  background-color: $themeColor;
+}
+.logout-icon {
+  font-size: $fontSizeForText;
+}
+.profile-icon {
+  font-size: 18px;
+}

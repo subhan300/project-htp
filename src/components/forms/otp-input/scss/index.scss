@@ -1,0 +1,31 @@
+@import "../../../../theme/colors/index.scss";
+@import "../../../../theme/fonts/index.scss";
+@import "../../../../app.scss";
+
+.code-inputs {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.code-inputs input {
+  background-color: transparent;
+  text-align: center;
+  height: 70px;
+  width: 70px;
+  border-radius: 15px;
+  margin: 0 4px;
+  border: 1px solid #c3c3c7;
+  font-size: 25px;
+  box-shadow: none;
+}
+.code-inputs input:focus {
+  background-color: #ffff;
+  outline: none;
+  border: none;
+}
+.code-inputs input:nth-child(2n) {
+  margin-right: 24px;
+}
+.code-inputs input:nth-child(4n) {
+  margin-right: 24px;
+}

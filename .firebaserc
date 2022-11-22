@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "project-htp"
+  },
+  "targets": {
+    "project-htp": {
+      "hosting": {
+        "project-htp": [
+          "https://project-htp.web.app"
+        ]
+      }
+    }
+  }
+}

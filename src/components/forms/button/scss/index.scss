@@ -1,0 +1,39 @@
+@import "../../../../theme/colors";
+@import "../../../../theme/fonts";
+
+.btn {
+  border-radius: $borderRadius;
+  padding: 10px 15px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.2s ease-in;
+  &:focus {
+    outline: none;
+  }
+}
+
+.btnDarkHover {
+  border-radius: $borderRadius;
+  color: $textColor;
+  border: none;
+  border: 1px solid $borderColorLight;
+  padding: 10px 15px;
+  width: 100%;
+  text-align: center;
+
+  &:hover {
+    background-color: #045d71 !important;
+    color: $white !important;
+
+    &::before {
+      width: 100%;
+    }
+  }
+  &:active {
+    background-color: #035d71;
+    transform: scale(1.01);
+  }
+  &:focus {
+    outline: none;
+  }
+}

@@ -1,0 +1,36 @@
+@import "../../../../theme/colors/index.scss";
+@import "../../../../theme/fonts/index.scss";
+@import "../../../../app.scss";
+
+.step-form-input {
+  border: 1px solid $borderColorDark;
+  border-radius: $borderRadius;
+  &:focus {
+    outline: none;
+  }
+}
+.save-btn-div {
+  width: 68%;
+
+  &:focus {
+    display: none;
+  }
+
+  .save-btn {
+    font-size: $fontSizeForText !important;
+    border-radius: $borderRadius;
+    background-color: $themeColor;
+    font-weight: $fontWeightForText;
+    color: $white;
+    &:hover {
+      cursor: pointer;
+    }
+    &:focus {
+      display: none;
+    }
+  }
+}
+.step-form4-text {
+  color: $themeColor;
+  font-size: 1.8rem;
+}

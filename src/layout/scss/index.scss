@@ -1,0 +1,87 @@
+@import "../../theme/colors/index.scss";
+@import "../../theme/fonts/index.scss";
+@import "../../theme/media-query/index.scss";
+@import "../../app.scss";
+
+.navbar {
+  background-color: white;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+  box-shadow: $boxShadow;
+}
+
+@media (min-width: 375px) {
+  .main-layout {
+    margin-top: 56px !important;
+  }
+}
+@media (min-width: $medium-screen) {
+  .menu {
+    display: none;
+  }
+  .content {
+    margin-left: 200px !important;
+  }
+}
+@media (max-width: 991px) {
+  .ant-layout-sider {
+    display: none !important;
+  }
+}
+
+.sidebar {
+  height: 100vh !important;
+  border-top: 2px solid #f0f2f5;
+  padding: 1rem;
+  background-color: white;
+  position: fixed;
+  z-index: 1;
+
+  .ant-layout-sider-children {
+    background-color: $white !important;
+  }
+  .ant-menu {
+    background-color: $white !important;
+  }
+  .ant-menu-dark .ant-menu-item-selected .ant-menu-item-icon + span,
+  .ant-menu-dark .ant-menu-item-selected .anticon + span {
+    color: $white !important;
+  }
+  .ant-menu-dark .ant-menu-item-selected .ant-menu-item-icon,
+  .ant-menu-dark .ant-menu-item-selected .anticon {
+    color: $white !important;
+  }
+  .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal)
+    .ant-menu-item-selected {
+    background-color: $themeColor !important;
+  }
+  .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal)
+    .ant-menu-item-selected.logo_menu {
+    background-color: $white !important;
+  }
+
+  .ant-menu-title-content {
+    color: $textColor !important;
+    font-size: $fontSizeForText;
+  }
+  .ant-menu-item {
+    .anticon {
+      color: $activeTabTextColor !important;
+    }
+  }
+  .ant-menu {
+    .ant-menu-item-only-child {
+      padding: 40px !important;
+    }
+  }
+}
+
+.logo {
+  width: 100%;
+}
+
+.popover {
+  cursor: pointer;
+}

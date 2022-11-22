@@ -1,0 +1,25 @@
+@import "../../../theme/colors/index.scss";
+@import "../../../theme/fonts/index.scss";
+
+.location-text {
+  color: $textColor;
+}
+
+.location-patients {
+  color: $textColor;
+}
+
+.bg-active-switch {
+  background-color: $themeColor !important;
+}
+.bg-disabled-switch {
+  background-color: #bfbfbf !important;
+}
+
+.location_loader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10%;
+}
